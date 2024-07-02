@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bharat01 logo</title>
+    
+    <!-- styling  -->
+     <style>
+body{
+    display: flex;
+    justify-content:center ;
+    align-items: center ;
+    height: 100vh;
+    background-color: grey;
+}
+          /* logo of indian flag */
+ .logo{
+     height: 50vh;
+     width: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     border-radius: 50%;
+ background: linear-gradient(
+    to bottom,
+    #FF671F 33%,
+    #FFFFFF 34%,
+    #046A38 33%,
+  
+  );
+  background: linear-gradient(
+    to bottom,
+    #FF671F 33%,
+    #FFFFFF 33% 67%,
+    #046A38 67% 100%  );
+    
+    }
+
+    /* ashoka chakra */
+    .ashoka{
+    height:160px;
+    position: relative;
+    animation: positionChanger 4s ease-in-out 3s infinite normal backwards;
+     }
+
+     /* animation in ashoka chakra  */
+      @keyframes positionChanger {
+        0%{
+            rotate: 0deg;
+        }
+        20%{
+            rotate: 60deg; 
+        }
+        40%{
+            rotate: 120deg; }
+        60%{
+            rotate: 180deg;
+        }
+       80%{
+        rotate: 240deg;
+        }
+        100%{
+            rotate: 300deg;
+        }
+      }
+     
+
+     </style>
+</head>
+
+<body>
+    <div class="logo">
+        <p>BHARAT01</p>
+     
+<img src="https://static.vecteezy.com/system/resources/previews/019/767/958/original/ashok-chakra-logo-ashok-chakra-icon-transparent-free-png.png" alt="" class="ashoka"> 
+    </div>
+</body>
+</html>
